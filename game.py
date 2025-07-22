@@ -11,7 +11,7 @@ def get_player_guess():
                 print("Please enter a number between 1 and 100.")
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
-
+pass
 def check_guess(secret_number, player_guess):
     """
     Task for Student 2:
