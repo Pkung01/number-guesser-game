@@ -11,7 +11,6 @@ def get_player_guess():
     5. Add error handling for invalid input (e.g., text instead of a number).
     """
     # Student 1: Add your code here
-    def get_player_guess():
     while True:
         try:
             guess = int(input("Enter your guess (1-100): "))
